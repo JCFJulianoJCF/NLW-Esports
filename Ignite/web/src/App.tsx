@@ -1,34 +1,37 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import "./styles/main.css";
+import logoImg from "./assets/logo-nlw-esports.svg";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
+    <div className="max-w-[1344px] mx-auto flex flex-col items-center my-20">
+      <img src={logoImg} alt="" />
+
+      <h1 className="text-6xl text-white font-black mt-20">
+        Seu <span className="text-transparent bg-nlw-gradient bg-clip-text">duo</span> está aqui.
+      </h1>
+
+      <div className="grid grid-cols-6 gap-6 mt-16">
+        <a href="">
+          <img src="/game-1.png" alt="" />
         </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a href="">
+          <img src="/game-2.png" alt="" />
+        </a>
+        <a href="">
+          <img src="/game-3.png" alt="" />
+        </a>
+        <a href="">
+          <img src="/game-4.png" alt="" />
+        </a>
+        <a href="">
+          <img src="/game-5.png" alt="" />
+        </a>
+        <a href="">
+          <img src="/game-6.png" alt="" />
         </a>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
