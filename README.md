@@ -6,7 +6,7 @@
 
 Projeto construído do evento Next Level Week da Rocketseat.
 
-[Clique aqui para acessar.](https://JCFJulianoJCF.github.io/nlw/explorer)
+[Clique aqui para acessar.](https://JCFJulianoJCF.github.io/NLW-Esports/Explorer)
 
 ## 🛠 Tecnologias
 
